@@ -56,7 +56,7 @@ private struct GlassTransitionToolbar: View {
 
   var body: some View {
     GlassEffectContainer(spacing: 20) {
-      HStack(spacing: 12) {
+      HStack(spacing: 20) {
         if isExpanded {
           GlassToolPalette(
             selectedTool: selectedTool,
